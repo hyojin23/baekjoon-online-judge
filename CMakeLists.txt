@@ -4,4 +4,4 @@ project(BaekjoonOnlineJudge)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(1546_1546 1546/1546.cpp)
+add_executable(1546_1546 PS/1546/1546.cpp)
