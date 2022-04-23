@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/donny/CLionProjects/BaekjoonOnlineJudge/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1546_1546
+# Object build statements for EXECUTABLE target PS_Silver_1018_1018
 
 
 #############################################
-# Order-only phony target for 1546_1546
+# Order-only phony target for PS_Silver_1018_1018
 
-build cmake_object_order_depends_target_1546_1546: phony || CMakeFiles/1546_1546.dir
+build cmake_object_order_depends_target_PS_Silver_1018_1018: phony || CMakeFiles/PS_Silver_1018_1018.dir
 
-build CMakeFiles/1546_1546.dir/1546/1546.cpp.obj: CXX_COMPILER__1546_1546_Debug C$:/Users/donny/CLionProjects/BaekjoonOnlineJudge/1546/1546.cpp || cmake_object_order_depends_target_1546_1546
-  DEP_FILE = CMakeFiles\1546_1546.dir\1546\1546.cpp.obj.d
+build CMakeFiles/PS_Silver_1018_1018.dir/PS/Silver/1018/1018.cpp.obj: CXX_COMPILER__PS_Silver_1018_1018_Debug C$:/Users/donny/CLionProjects/BaekjoonOnlineJudge/PS/Silver/1018/1018.cpp || cmake_object_order_depends_target_PS_Silver_1018_1018
+  DEP_FILE = CMakeFiles\PS_Silver_1018_1018.dir\PS\Silver\1018\1018.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\1546_1546.dir
-  OBJECT_FILE_DIR = CMakeFiles\1546_1546.dir\1546
+  OBJECT_DIR = CMakeFiles\PS_Silver_1018_1018.dir
+  OBJECT_FILE_DIR = CMakeFiles\PS_Silver_1018_1018.dir\PS\Silver\1018
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1546_1546
+# Link build statements for EXECUTABLE target PS_Silver_1018_1018
 
 
 #############################################
-# Link the executable 1546_1546.exe
+# Link the executable PS_Silver_1018_1018.exe
 
-build 1546_1546.exe: CXX_EXECUTABLE_LINKER__1546_1546_Debug CMakeFiles/1546_1546.dir/1546/1546.cpp.obj
+build PS_Silver_1018_1018.exe: CXX_EXECUTABLE_LINKER__PS_Silver_1018_1018_Debug CMakeFiles/PS_Silver_1018_1018.dir/PS/Silver/1018/1018.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\1546_1546.dir
+  OBJECT_DIR = CMakeFiles\PS_Silver_1018_1018.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 1546_1546.exe
-  TARGET_IMPLIB = lib1546_1546.dll.a
-  TARGET_PDB = 1546_1546.exe.dbg
+  TARGET_FILE = PS_Silver_1018_1018.exe
+  TARGET_IMPLIB = libPS_Silver_1018_1018.dll.a
+  TARGET_PDB = PS_Silver_1018_1018.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 1546_1546: phony 1546_1546.exe
+build PS_Silver_1018_1018: phony PS_Silver_1018_1018.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build 1546_1546: phony 1546_1546.exe
 #############################################
 # Folder: C:/Users/donny/CLionProjects/BaekjoonOnlineJudge/cmake-build-debug
 
-build all: phony 1546_1546.exe
+build all: phony PS_Silver_1018_1018.exe
 
 # =============================================================================
 # Built-in targets
